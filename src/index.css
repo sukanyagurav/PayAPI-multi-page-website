@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image::after{
+    content: '';
+    background-color: #D1DBE3; 
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    @apply -top-[430px] left-0 w-screen h-[700px] md:w-[900px] md:h-[900px]   md:left-auto md:-right-[400px];
+}

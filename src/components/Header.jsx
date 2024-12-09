@@ -11,7 +11,7 @@ const Header = () => {
           <img src={logo} alt="payapi logo" />
         </Link>
 
-        <nav className="flex gap-8 items-center justify-between w-full">
+        {/* <nav className="flex gap-8 items-center justify-between w-full">
           <ul className="flex gap-8 font-bold text-gray-600 transition-all duration-300">
             <li>
               <Link to="/pricing" className="hover:text-dark_pink">Pricing</Link>
@@ -25,7 +25,7 @@ const Header = () => {
           </ul>
 
           <Button btnText="Schedule a Demo" />
-        </nav>
+        </nav> */}
       </Card>
     </header>
   );
